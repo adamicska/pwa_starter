@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { AuthPageLayout } from "@/components/auth/auth-page-layout";
 import { AuthForm } from "@/components/auth/auth-form";
 
