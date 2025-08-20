@@ -21,15 +21,15 @@ export interface AuthPageLayoutProps {
 }
 
 export function AuthPageLayout({
-  title,
-  subtitle,
-  description,
+  // title,
+  // subtitle,
+  // description,
   children,
   showBackButton = false,
   backButtonLabel = "Back",
   onBack,
   className,
-  contentClassName,
+  // contentClassName,
   maxWidth = "sm",
 }: AuthPageLayoutProps) {
   const handleBack = () => {
